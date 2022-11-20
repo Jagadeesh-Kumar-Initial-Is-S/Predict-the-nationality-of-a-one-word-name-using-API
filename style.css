@@ -1,0 +1,98 @@
+/* Submitted or coded by Jagadeesh Kumar . S, 
+    you may contact me through my email address which is jagadeesh_2k17@proton.me,
+    kindly contribute some money to my Indian UPI address which is jagadeesh-kumar@ybl . */
+  
+
+
+body {
+    margin: auto;
+    background-color: rgb(137, 137, 149);
+}
+
+.container{
+    background-color: green;
+    margin: 20px 20px;
+    border: 1px solid burlywood;
+    border-radius: 30px;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    background: green;
+    text-align:center;
+    font-size: 25px;
+}
+
+.section {
+    margin-bottom: 78px;
+    margin-top:78px;
+    margin-left:300px;
+    width: 85%;
+}
+
+.siddenav {
+    text-align:center;
+    height: 100%;
+    width: 210px;
+    position:fixed;
+    background-color: green;
+    padding-top: 10px;
+}
+
+.sidenav > p > b {
+    font-size: 20px;
+}
+
+.search{
+    text-align: center;
+}
+
+#button {
+    cursor: pointer;
+}
+
+#perPage{
+    margin-left: 5px;
+}
+
+.image{
+    justify-content: center;
+    position: absolute;
+    bottom : 0;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    background-color: green;
+}
+
+.footer > button {
+    background-color: green;
+    width: 75px;
+}
+
+@media (min-width: 0px) and (max-width:1400px){
+    .image{
+        bottom:0;
+        opacity: 0.5;
+    }
+}
+
+
+/* Submitted or coded by Jagadeesh Kumar . S, 
+    you may contact me through my email address which is jagadeesh_2k17@proton.me,
+    kindly contribute some money to my Indian UPI address which is jagadeesh-kumar@ybl . */
+  
